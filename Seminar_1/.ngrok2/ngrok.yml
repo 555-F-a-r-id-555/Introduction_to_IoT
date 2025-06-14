@@ -1,0 +1,15 @@
+version: 2
+authtoken: my_tocken
+
+tunnels:
+  node_red:
+    proto: http
+    addr: 192.168.42.130:1880
+
+  influxdb:
+    proto: http
+    addr: 192.168.42.130:8086
+
+  grafana:
+    proto: http
+    addr: 192.168.42.130:3000
