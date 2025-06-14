@@ -272,15 +272,11 @@ ngrok
 
 Using ngrok for OSS? Request a community license: https://ngrok.com/r/oss 
 
-Session
-Status             online
-Account          Fred (Plan: Free)
-Update
-update available (version 3.23.1, Ctrl-U to update) 
-Version            
-3.22.1
-Region             
-Europe (eu)
+Session Status    online
+Account           Fred (Plan: Free)
+Update            update available (version 3.23.1, Ctrl-U to update) 
+Version           3.22.1
+Region            Europe (eu)
 Latency           72ms
 
 Web Interface   http://127.00.1:4040
@@ -292,8 +288,7 @@ Connections
  p50     p90      66      1   
  0.00    0.00    0.82    6.52
 
-HTTP
-Requests           
+HTTP Requests           
 
 -------------
 
