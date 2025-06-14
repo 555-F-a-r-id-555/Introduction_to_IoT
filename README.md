@@ -300,12 +300,12 @@ Session Status                online                                            
 
 ```
 * Добавил несколько скриптов для проверки:
- 1. DNS: (dns)[]
- 2. DNS_ping: (dns_ping)[]
- 3. port_checker: (port_checker)[]
- 4. Speed_test: (speed_test)[]
+ 1. DNS: [dns](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_1/DNS.py)
+ 2. DNS_ping: [dns_ping](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_1/ping_v2.py)
+ 3. port_checker: [port_checker](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_1/port_checker_v2.py)
+ 4. Speed_test: [speed_test](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_1/internet_speed_test.py)
  * Для создания pdf из изображений('.png', '.jpg', '.jpeg', '.gif', '.bmp')
- 5. pdf_creator: (pdf_creator)[]
+ 5. pdf_creator: [pdf_creator](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_1/pdf_creator.py)
 
 
 
