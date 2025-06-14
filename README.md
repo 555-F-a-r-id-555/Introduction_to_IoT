@@ -355,7 +355,8 @@ Forwarding      https://7da7-188-253-216-66.ngrok-free.app -> http://192.168.42.
  5. pdf_creator: [pdf_creator](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_1/pdf_creator.py)
 
 
-
+* Сссылка на  список скришоты в формате pdf:
+    [Screenshots_Combined.pdf](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_1/Img/res/Screenshots_Combined.pdf)
 
 
 
