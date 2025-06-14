@@ -247,7 +247,7 @@ PS C:\Users\Fred> tracert 8.8.8.8
 | 🧱 **FRP / Remote.it**      | Умные пробросы портов через внешний сервер (подходит для dev/prod)                        |
 | ☁ **VPS (облачный сервер)** | Пробрасываешь порт с VPS на себя через SSH-туннель (дороже, но надёжно)                   |
 
-2. 1 Установка Ngrok через Chocolatey
+2. 2 Установка Ngrok через Chocolatey
 
 ```ps1
 choco -v
@@ -265,9 +265,48 @@ ngrok http 192.168.42.130:1880
 
 #-------------------------------------------------
 
-ngrok                                                                                                                                                                                          (Ctrl+C to quit)                                                                                                                                                                                                               �  Using ngrok for OSS? Request a community license: https://ngrok.com/r/oss 
+ngrok
 
-Session Status                online                                                                                                                                                                           Account                       Fred (Plan: Free)                                                                                                                                                                Update                        update available (version 3.23.1, Ctrl-U to update)                                                                                                                              Version                       3.22.1                                                                                                                                                                           Region                        Europe (eu)                                                                                                                                                                      Latency                       72ms                                                                                                                                                                             Latency                       249ms                                                                                                                                                                            Web Interface                 http://127.0.0.1:4040                                                                                                                                                            Forwarding                    https://4e9d-188-253-216-66.ngrok-free.app -> http://192.168.42.130:1880                                                                                                                                                                                                                                                                                                                        Connections                   ttl     opn     rt1     rt5     p50     p90                                                                                                                                                                    66      1       0.00    0.00    0.82    6.52                                                                                                                                                                                                                                                                                                                                                    HTTP Requests                                                                                                                                                                                                  -------------                                                                                                                                                                                                                                                                                                                                                                                                                 20:55:24.332 +55 GET  /comms                                        101 Switching Protocols                                                                                                                    20:39:50.848 +39 POST /inject/c5d2858f03a8359c                      200 OK                                                                                                                                     20:34:51.939 +34 POST /inject/c5d2858f03a8359c                      200 OK                                                                                                                                     20:34:39.425 +34 GET  /icons/node-red/watch.svg                     200 OK 
+
+(Ctrl+C to quit)
+
+Using ngrok for OSS? Request a community license: https://ngrok.com/r/oss 
+
+Session
+Status             online
+Account          Fred (Plan: Free)
+Update
+update available (version 3.23.1, Ctrl-U to update) 
+Version            
+3.22.1
+Region             
+Europe (eu)
+Latency           72ms
+
+Web Interface   http://127.00.1:4040
+Forwarding  https://4e9d-188-253-216-66.ngrok-free.app ->http://192.168.42.130:1880 
+
+
+Connections        
+ ttl     opn     rt1     rt5   
+ p50     p90      66      1   
+ 0.00    0.00    0.82    6.52
+
+HTTP
+Requests           
+
+-------------
+
+20:55:24.332 +55 GET /comms           
+101 Switching Protocols
+20:39:50.848 +39 POST
+/inject/c5d2858f03a8359c       
+200 OK
+20:34:51.939 +34 POST /inject/c5d2858f03a8359c     
+200 OK
+20:34:39.425 +34 GET
+/icons/node-red/watch.svg       
+200 OK
 ```
 
 3. немного изменил ngrok, добавил  ngrok.yml:
@@ -296,7 +335,20 @@ ngrok start --all
 ngrok start --all --config D:\IoT_start\Introduction_to_IoT\Seminar_1\.ngrok2\ngrok.yml
 ```
 ```ps1
-Session Status                online                                                                                                                                                            Account                       Fred (Plan: Free)                                                                                                                                                 Update                        update available (version 3.23.1, Ctrl-U to update)                                                                                                               Version                       3.22.1                                                                                                                                                            Region                        Europe (eu)                                                                                                                                                       Latency                       83ms                                                                                                                                                              Web Interface                 http://127.0.0.1:4040                                                                                                                                             Forwarding                    https://1215-188-253-216-66.ngrok-free.app -> http://192.168.42.130:8086                                                                                          Forwarding                    https://5f0e-188-253-216-66.ngrok-free.app -> http://192.168.42.130:3000                                                                                          Forwarding                    https://7da7-188-253-216-66.ngrok-free.app -> http://192.168.42.130:1880 
+Session Status  online
+Account   Fred (Plan: Free)
+Update    update available (version 3.23.1, Ctrl-U to update) 
+Version   3.22.1
+
+Region    Europe (eu)
+Latency   83ms
+
+Web Interface   http://127.0.0.1:4040
+
+Forwarding      https://1215-188-253-216-66.ngrok-free.app -> http://192.168.42.130:8086 
+Forwarding      https://5f0e-188-253-216-66.ngrok-free.app -> http://192.168.42.130:3000 
+Forwarding      https://7da7-188-253-216-66.ngrok-free.app -> http://192.168.42.130:1880
+ 
 
 ```
 * Добавил несколько скриптов для проверки:
