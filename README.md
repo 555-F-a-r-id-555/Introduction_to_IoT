@@ -374,7 +374,7 @@ Forwarding      https://7da7-188-253-216-66.ngrok-free.app -> http://192.168.42.
 ```
 
 * Решения: [7_0_HLD_Farid_Bagi_612.4_v2.0.pdf](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_2/7_0_HLD_Farid_Bagi_612.4_v2.0.pdf)
-* logo: [aeromlix-high-resolution-logo-transparent.png](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_2/aeromlix-high-resolution-logo-transparent.png)
+* logo: [aeromlix-high-resolution-logo-transparent.png](https://github.com/555-F-a-r-id-555/Introduction_to_IoT/blob/main/Seminar_2/Img/aeromlix-high-resolution-logo-transparent.png)
 
 
 
